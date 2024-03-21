@@ -1,17 +1,15 @@
 import java.util.*;
-class Division
+class  Division
 {
-public static void main(String arg[])
-{
-float n1,n2,Q,R;
-Scanner sc=  new Scanner(System.in);
-System.out.println("ENTER THE VALUE OF n1");
-n1=sc.nextFloat();
-System.out.println("ENTER THE VALUE OF n2");
-n2=sc.nextFloat();
-Q=n1/n2;
-R=n1%n2;
-System.out.println("QUOTIENT OF THE GIVEN NUMBER IS "+Q);
-System.out.println("REMAINDER OF THE GIVEN NUMBER IS "+R);
-}
+	public static void main(String[] args)
+	{
+		int a,b,qu,rem;
+		Scanner s=new Scanner(System.in);
+		a=s.nextInt();
+		b=s.nextInt();
+		qu=a/b;
+		rem=a%b;
+		System.out.println("Quotient is "+qu);
+		System.out.println("Remainder is "+rem);
+	}
 }

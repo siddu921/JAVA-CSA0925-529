@@ -1,18 +1,16 @@
 import java.util.*;
 class Swap
 {
-public static void main(String arg[])
+public static void main(String[] args)
 {
-int n1,n2,temp;
-Scanner sc=  new Scanner(System.in);
-System.out.println("ENTER THE VALUE OF n1");
-n1=sc.nextInt();
-System.out.println("ENTER THE VALUE OF n2");
-n2=sc.nextInt();
-temp=n1;
-n1=n2;
-n2=temp;
-System.out.println(+n1);
-System.out.println(+n2);
+int a,b,temp;
+Scanner s=new Scanner(System.in);
+System.out.print("Enter the both numbers");
+a=s.nextInt();
+b=s.nextInt();
+temp=a;
+a=b;
+b=temp;
+System.out.println("Swapped numbers" +a +" " +b);
 }
 }
